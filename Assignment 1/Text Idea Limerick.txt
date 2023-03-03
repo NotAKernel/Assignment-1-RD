@@ -1,0 +1,87 @@
+Text Idea Limerick
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limerick City Tourist Guide</title>
+  </head>
+  <body>
+    <header>
+      <h1>Limerick City Tourist Guide</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Limerick</a></li>
+          <li><a href="#attractions">Attractions</a></li>
+          <li><a href="#food">Food & Drink</a></li>
+          <li><a href="#accommodation">Accommodation</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Limerick</h2>
+        <p>
+          Limerick is a city located in the south-west of Ireland, known for its
+          historic architecture, cultural heritage, and lively atmosphere. With
+          a population of over 100,000 people, Limerick is the third-largest city
+          in Ireland and a popular destination for tourists from all over the
+          world.
+        </p>
+        <p>
+          Some of the city's most popular attractions include King John's
+          Castle, the Hunt Museum, and the University of Limerick. Visitors can
+          also enjoy a range of cultural events, including the annual Limerick
+          Jazz Festival and the Limerick City Gallery of Art.
+        </p>
+      </section>
+
+      <section id="attractions">
+        <h2>Attractions</h2>
+        <ul>
+          <li>King John's Castle</li>
+          <li>The Hunt Museum</li>
+          <li>St. Mary's Cathedral</li>
+          <li>The Treaty Stone</li>
+          <li>Limerick City Gallery of Art</li>
+        </ul>
+      </section>
+
+      <section id="food">
+        <h2>Food & Drink</h2>
+        <p>
+          Limerick has a vibrant food and drink scene, with a range of options to
+          suit all tastes and budgets. Some of the city's most popular
+          restaurants and pubs include:
+        </p>
+        <ul>
+          <li>The Locke Bar</li>
+          <li>Bobby Byrne's</li>
+          <li>The Curragower Bar</li>
+          <li>The Cornstore Restaurant</li>
+          <li>The River Restaurant at the Limerick Strand Hotel</li>
+        </ul>
+      </section>
+
+      <section id="accommodation">
+        <h2>Accommodation</h2>
+        <p>
+          Limerick has a range of accommodation options to suit all budgets and
+          preferences. Some of the city's most popular hotels and guesthouses
+          include:
+        </p>
+        <ul>
+          <li>The Limerick Strand Hotel</li>
+          <li>The Savoy Hotel</li>
+          <li>The Absolute Hotel</li>
+          <li>The George Limerick</li>
+          <li>The Pier Hotel</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions or comments about our website or Limerick
+         

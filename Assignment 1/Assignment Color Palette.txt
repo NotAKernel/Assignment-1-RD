@@ -1,0 +1,5 @@
+#3F62B2 - True Blue (Darkest)
+#3083DC - Bleu de France
+#F8FFE5 - Light Yellow
+#7DDE92 - Light Green
+#2EBFA5 - Keppel (Lightest)

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home - Welcome to Limerick</title>
+		<link rel="stylesheet" href="CSS/main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Palanquin&family=Tilt+Warp&display=swap" 
+		rel="stylesheet">
+		<link rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			function myFunction() {
+				var x = document.getElementById("topNav");
+				if (x.className === "topNav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topNav";
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+	<div class="containerHead">
+		<header class="headerDiv">
+			<div class="topBar">
+			<img id="topLogo" src="Images/white_logo.jpg" alt="Limerick logo">
+			<nav id="topNav" class="topNav">
+				<ul>
+					<li><a href="index.html">About Limerick</a></li>
+					<li><a href="#attractions">Attractions</a></li>
+					<li><a href="#food">Food & Drink</a></li>
+					<li><a href="#accommodation">Accommodation</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i></a></li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+	</div>
+	
+	<div class="containerMain"> 
+		<div class="hero">
+			<img src="Images/lake_hero4.jpg" alt="The sun cresting a hill that overlooks Loch Gur." 
+			class="heroImg">
+			<div class="heroText"><h1>Welcome <br> to <br> Limerick</h1></div>
+		</div>
+		
+		<div class="headerPage">
+			<hr>
+				<h2>Experience New Memories</h2>
+			<hr>
+		</div>
+		<div class="attractImg">
+			<img src="Images/attract1.jpg" alt="A crowd starting the Great Limerick Run.">
+			<h3>The Great Limerick Run</h3>
+			<p>Find yourself walking, jogging, running or sprinting alongside the most supportive people
+			that Limerick has to offer. Whether you're an athlete or not, the Great Limerick Run is a
+			great achievement to have under your belt; with its shorter races and its marathons, there
+			is an option for everyone.</p>
+		</div>
+		
+		<div class="attractImg">
+			<img src="Images/attract2.jpg" alt="A man riding a wooden pony in a parade.">
+			<h3>The Limerick Parade</h3>
+			<p> There are a wealth of parades that happen in Limerick all through the year, including
+			the Battle of the Bands and the St Paddy's Day Parade. A few costume parades fill up the gaps in 
+			between these two behemoths of street entertainment.</p>
+		</div>
+		
+		<div class="attractImg">
+			<img src="Images/attract3.jpg" alt="A woman wakeboarding on the Shannon River.">
+			<h3>River Wakeboarding</h3>
+			<p>Wakeboarding along the River Shannon present you with an astonishing view of the history
+			that lies at its banks. The three main bridges also provide some fun for the more experienced
+			wakeboarders.</p>
+		</div>
+		
+		<div class="attractImg">
+			<img src="Images/attract4.jpg" alt="A match taking place in Thomand Park.">
+			<h3>Thomand Park</h3>
+			<p>Home to the Munster Rugby team and host to many a big game, this stadium is not one to
+			be passed up easily by sports fans, or anyone looking to experience the atmosphere of
+			a real Irish crowd.</p>
+		</div>
+		
+		<div class="headerPage">
+		<hr>
+			<h2>About Limerick</h2>
+		<hr>
+		</div>
+		
+		<div class="aboutImg">
+			<img src="Images/shannon_river.jpg" alt="The city scape standing atop the Shannon River.">
+		</div>
+		<div class="aboutText">
+			<p>
+			  Limerick is a city located in the south-west of Ireland, known for its
+			  historic architecture, cultural heritage, and lively atmosphere. With
+			  a population of over 100,000 people, Limerick is the third-largest city
+			  in Ireland and a popular destination for tourists from all over the
+			  world.
+			</p>
+			<p>
+			  Some of the city's most popular attractions include King John's
+			  Castle, the Hunt Museum, and the University of Limerick. Visitors can
+			  also enjoy a range of cultural events, including the annual Limerick
+			  Jazz Festival and the Limerick City Gallery of Art.
+			</p>
+		</div>
+		
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/zYgZFm43ZN4" 
+			frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+			picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="footer">
+			<h4>Explore Limerick</h4>
+				<ul>
+					<li>The Hunt Museum</li>
+					<li>King John's Castle</li>
+					<li>Thomand Park Stadium</li>
+				</ul>
+		</div>
+		
+		<div class="footer">
+			<a href="contact.html" class="contactButton">Contact Us Now!</a>
+			<ul>
+				<li>Phone: 555-1234</li>
+				<li>Email: info@limerick.com</li>
+				<li>Address: 123 Main St, Limerick</li>
+			</ul>
+		</div>
+		
+		<div class="footer">
+			<h4>Connect with us</h4>
+				<ul>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>Twitter</li>
+				</ul>
+		</div>
+	</footer>
+	</div>
+	</body>
+</html>
