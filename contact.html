@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contact Us - Welcome to Limerick</title>
+		<link rel="stylesheet" href="CSS/main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Palanquin&family=Tilt+Warp&display=swap" 
+		rel="stylesheet">
+		<link rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			function myFunction() {
+				var x = document.getElementById("topNav");
+				if (x.className === "topNav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topNav";
+				}
+			}
+		</script>
+	</head>
+	
+	<body class="contactBody">
+		<div class="contactDiv">
+		<div class="containerHead">
+		
+			<header class="headerDiv">
+				<div class="topBar">
+				<img id="topLogo" src="Images/white_logo.jpg" alt="Limerick logo">
+				<nav id="topNav" class="topNav">
+					<ul>
+						<li><a href="index.html">About Limerick</a></li>
+						<li><a href="#attractions">Attractions</a></li>
+						<li><a href="#food">Food & Drink</a></li>
+						<li><a href="#accommodation">Accommodation</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i></a></li>
+					</ul>
+				</nav>
+				</div>
+			</header>
+		</div>
+	<div id="signUpForm">		
+		<form action="http://litstudentprojects.net/rdwd-newsletter-response.php" method="post">
+			
+			<hr>
+			<h2>Sign Up to our Newsletter!</h2>
+			<hr>
+				<fieldset id="textfields"> 
+				<p>
+					<label for="first_name">First name*: </label>
+					<input type="text" name="first_name" size="25" id="first_name" required>
+				</p>	
+				
+				<p>
+					<label for="last_name">Last name*: </label>
+					<input type="text" name="last_name" size="25" id="last_name" required>
+				</p>
+				
+				<p>
+					<label for="email1">Email*: </label>
+					<input type="email" name="email1" size="25" id="email1" required>
+				</p>
+				
+				<p>
+					<label for="email2">Retype your Email*: </label>
+					<input type="email" name="email2" size="25" id="email2" required>
+				</p>
+				
+				<p>
+					<label for="phone">Phone: </label>
+					<input type="tel" name="phone" size="25" id="phone">
+				</p>
+				</fieldset>
+				
+				<fieldset id="interests">
+					<legend>Your interests? (tick all that apply)</legend>
+						
+						<p><label><input type="checkbox" name="interest[]" value="todo"> 
+						Things to do </label> </p>
+						<p><label><input type="checkbox" name="interest[]" value="hiking"> 
+						Hiking and Walking </label> </p>
+						<p><label><input type="checkbox" name="interest[]" value="events">
+							Events </label> </p>
+						<p><label><input type="checkbox" name="interest[]" value="accommodation">
+							Places to Stay </label> </p>
+						<p><label><input type="checkbox" name="interest[]" value="dining">
+							Places to Eat</label> </p>
+						
+				</fieldset>
+				
+			<input type="submit" id="submit">
+			<input type="reset" id="reset">
+			<input type="hidden" name="recipe" value="Herbed Vegetable Combo">
+			<a href="index.html"><img src="images/button_cancel.png" alt="cancel" id="cancel"></a>
+		</form>
+	</div>
+		<footer id="signUpFooter">
+		</footer>
+
+	</div>
+	</body>
+	
+</html>
